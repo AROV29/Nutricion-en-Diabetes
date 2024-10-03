@@ -1,0 +1,77 @@
+body {
+    background-image: url(../../Nutricion-en-Diabetes/assets/familiafoto.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+    color: #F0F0F0;
+    border-radius: 15px;
+    max-width: 80%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.caja-unica {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #F0F0F0; 
+    border-radius: 15px; 
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 80%; 
+    width: 100%; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.caja-unica img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+    display: block;
+    margin: 0 auto;
+}
+
+.boton-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boton {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #F0F0F0;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 1px solid #F0F0F0;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        padding: 8px;
+        font-size: 1.2em; 
+    }
+
+    .caja-unica {
+        width: 100%;
+    }
+
+    .boton {
+        font-size: 1em;
+    }
+}
